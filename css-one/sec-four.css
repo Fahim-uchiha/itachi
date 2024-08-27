@@ -1,0 +1,70 @@
+#sec-four{
+    padding: 100px 0;
+    background: #F1FBFB;
+}
+
+#sec-four .txt{
+    text-align: center;
+}
+
+#sec-four .txt p{
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;  
+}
+
+#sec-four .txt h3{
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67.2px;  
+}
+
+#sec-four .line{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    
+}
+
+#sec-four .line .box{
+    width: 330px;
+    height: 210px;
+}
+
+#sec-four .line .box img{
+    width: 300px;
+}
+
+#sec-four .two{
+    padding: 80px 0;
+}
+
+#sec-four .right h3{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;   
+}
+
+#sec-four .right p{
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 44px;
+    width: 596px;  
+}
+
+
+#sec-four .right a{
+    padding: 20px 26px;
+    background: #6A55EA;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 18px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

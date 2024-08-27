@@ -1,0 +1,70 @@
+footer{
+    padding: 100px 0;
+    position: relative;
+    z-index: 999;
+}
+
+footer .left p{
+    padding: 20px 0;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;    
+}
+
+footer .right{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .right h3{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 600;  
+    color: #29313D;  
+}
+
+footer .right p{
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;    
+    color: #555;
+    margin-top: 20px;
+}
+
+footer .left .para {
+    width: 100%;
+}
+
+/*  */
+
+
+#last{
+    padding: 20px 0;
+}
+
+#last .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#last .main .f-left p{
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;    
+    color: #29313D;
+}
+
+#last .main .f-right{
+    display: flex;
+    gap: 50px;
+}
+
+#last .main .f-right p{
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;   
+    color: #29313D; 
+}

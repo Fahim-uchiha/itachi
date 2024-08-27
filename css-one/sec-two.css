@@ -1,0 +1,120 @@
+#about{
+    padding: 300px 0;
+    overflow-x: hidden;
+}
+
+#about .left p{
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 20px;
+
+}
+
+#about .left img{
+    width: 100%;
+}
+
+
+#about .text{
+    text-align: center;
+    margin: auto;
+    padding: 0 0 50px 0;
+}
+
+#about .text p{
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 500;
+    color: #7968EF;
+}
+
+#about .text h3{
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67.2px;
+    text-align: center;
+    width: 676px;
+    margin: 0 auto;
+}
+
+#about .line{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 140px 0;
+}
+
+#about .line .box{
+    display: flex;
+    gap: 20px;
+}
+
+#about .line .box:nth-child(3){
+    height: 28px;
+}
+
+#about .line .box:nth-child(4){
+    height: 30px;
+}
+
+#about .line .box h4{
+    font-family: "Work Sans", sans-serif;
+}
+
+#about .right .box{
+    display: flex;
+}
+
+#about .right .box .txt{
+    padding: 0 25px;
+}
+
+#about .right .box .txt h3{
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 39.2px; 
+    text-transform: capitalize;
+    color: #333;
+}
+
+#about .right .box .txt p{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;    
+    color: #333;
+}
+
+
+
+#about .right .box{
+    padding: 10px 20px;
+    margin-top: 30px;
+    background: #FEF6EC;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#about .right .box:first-child{
+    background: #F0EDFF;
+}
+
+#about .right .circle{
+    display: grid;
+    place-items: center;
+    padding: 25px 25px;
+    background:#7968EF;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+

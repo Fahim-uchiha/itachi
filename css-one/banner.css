@@ -1,0 +1,125 @@
+/* banner css start */
+
+#banner{
+    background: url(../image/banner.jpg) no-repeat center / cover;
+    padding: 150px 0 365px 0;
+    position: relative;
+}
+
+
+
+.last{
+    position: absolute;
+    left: 0;
+    bottom: -175px;
+    width: 100%;
+    background: transparent;
+}
+
+.last img{
+    width: 100%;
+}
+
+#banner .ban-txt{
+    text-align: center;
+    z-index: 10;
+}
+
+#banner .ban-txt ul{
+    padding: 0 0 0 !important;
+    margin:  0 0 0 !important;
+}
+
+#banner .ban-txt ul li{
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    border: 1px solid #fff;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 9;
+}
+
+#banner .ban-txt h1{
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 64px;
+    font-weight: 700;
+    width: 967px;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 83.2px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    background: linear-gradient(-25deg,#5662f6,#fff);
+    color: transparent;
+    background-clip: text;
+}
+
+#banner .ban-txt p{
+    position: relative;
+    z-index: 7;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;  
+    width: 780px;
+    margin: 0 auto;
+    line-height: 36px;
+    text-transform: capitalize;
+    padding: 10px 0 20px 0;
+}
+
+#banner .ban-txt input{
+    width: 439px;
+    height: 78px;
+    padding-left: 30px;
+    font-family: 'Nunito';
+    font-size: 19px;
+    font-weight: 400;
+    outline: 0;
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+    text-transform: capitalize;
+    color: #444;
+    z-index: 10;
+    position: relative;
+}
+
+#banner .ban-txt input:focus{
+    border: 2px solid #d61c35;
+}
+
+#banner .ban-txt button{
+    position: relative;
+    width: 199px;
+    height: 78px;
+    border: none;
+    margin: 0 -5px;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    background: #6A55EA;
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+    z-index: 999;
+}
+
+
+/* banner css end */

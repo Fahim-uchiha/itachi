@@ -1,0 +1,1139 @@
+@media (min-width: 0px) and (max-width: 576px) {
+
+    .cursor::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 28px;
+        height: 28px;
+        background-color: rgb(56, 56, 173);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        -webkit-box-shadow: 0px 0px 101px 13px rgba(93, 9, 219, 0.96);
+        -moz-box-shadow: 0px 0px 101px 13px rgba(93, 9, 219, 0.96);
+        box-shadow: 0px 0px 101px 13px rgba(93, 9, 219, 0.96);
+    }
+
+    .cursor::before {
+        content: "";
+        position: absolute;
+        z-index: 9;
+        background: #fff;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .cursor span {
+        font-size: 0px;
+    }
+
+    /* nav part start */
+
+    .navbar-toggler {
+        background: #fff;
+        border: none;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .menu-bg .navbar-collapse {
+        background-color: gray;
+    }
+
+    .menu-bg ul {
+        text-align: center;
+    }
+
+    .menu-bg ul li {
+        padding: 10px 0;
+    }
+
+    .menu-bg ul li:hover {
+        background: #5555;
+    }
+
+    .nav-btn {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* nav part end */
+
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    #banner .ban-txt h1 {
+        width: 100%;
+        font-size: 46px;
+        line-height: 61px;
+    }
+
+    #banner .ban-txt p {
+        font-size: 15px;
+        width: 100%;
+        line-height: 27px;
+    }
+
+    #banner .ban-txt input {
+        width: 270px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+    #banner .ban-txt button {
+        width: 135px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+    #banner {
+        padding: 140px 0 309px 0;
+    }
+
+    .last {
+        bottom: 0px;
+    }
+
+    /* sec-two start */
+
+    #sec-two {
+        padding: 120px 0;
+        overflow-x: hidden;
+    }
+
+    #sec-two .line .box img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #sec-two .line .box h4 {
+        font-size: 20px;
+    }
+
+    #sec-two .left p {
+        font-size: 17px !important;
+        line-height: 30px !important;
+    }
+
+
+    #sec-two .text h3 {
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 54.2px;
+        width: 100%;
+        text-transform: capitalize;
+    }
+
+    #sec-two .right .box .circle {
+        width: 120px;
+        height: 120px;
+    }
+
+
+
+    /* sec-two end */
+
+
+
+    /* sec-three start */
+
+    #sec-three {
+        overflow-x: hidden;
+    }
+
+    #sec-three .right {
+        width: 100%;
+    }
+
+    #sec-two .right .box .txt h3 {
+        font-size: 18px;
+    }
+
+    #sec-three .left p {
+        font-size: 19px !important;
+        line-height: 30px !important;
+        padding: 60px 0;
+    }
+
+    #sec-three .left p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    /* sec-three end */
+
+
+    /* sec-four start*/
+
+    #sec-four {
+        overflow-x: hidden;
+    }
+
+    #sec-four .txt p {
+        font-size: 21px;
+        margin: 0 0 0;
+    }
+
+    #sec-four .txt h3 {
+        font-size: 43px;
+    }
+
+
+    #sec-four .line {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    #sec-four .line .box img {
+        width: 90%;
+        padding: 0 0 0;
+    }
+
+    #sec-four .left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #sec-four .right {
+        padding: 60px 0 0;
+    }
+
+    #sec-four .right h3 {
+        text-transform: capitalize;
+        text-align: center;
+        margin: auto;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    #sec-four .right p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+        margin: 0 0 0;
+        padding: 20px 0 30px 0;
+        text-align: center;
+
+    }
+
+    #sec-four .right .btn {
+        padding: 16px 18px;
+        display: grid;
+        place-items: center;
+    }
+
+    #sec-four .right a {
+        padding: 18px 20px;
+    }
+
+    /* sec-four end*/
+
+
+    /* sec-five start */
+
+    #sec-five {
+        overflow-x: hidden;
+    }
+
+    #sec-five .txt p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    #sec-five .txt h3 {
+        font-size: 41px;
+        line-height: 38.2px;
+    }
+
+    #sec-five .txt .right-txt a {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    #sec-five .txt .right-txt {
+        padding: 26px 0 0 0;
+    }
+
+    #sec-five .top .img {
+        width: 100%;
+        height: 135px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    #sec-five .top .box .card-content h3 {
+        font-family: 'Poppins';
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 39.2px;
+        margin: 0;
+    }
+
+    #sec-five .top .box .card-content p {
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #29313D;
+    }
+
+
+    /* sec-five end */
+
+    #sec-six .ban-txt p {
+        font-size: 22px;
+        line-height: 36px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    /* footer start */
+
+    footer {
+        overflow-x: hidden;
+    }
+
+    footer .left {
+        width: 90px;
+    }
+
+    footer .left img {
+        width: 100%;
+    }
+
+
+
+    footer .right p {
+        font-size: 13px !important;
+        line-height: 5px;
+    }
+
+
+    footer .left .para {
+        width: 424px;
+    }
+
+    footer .right p {
+        font-size: 17px;
+        line-height: 12px;
+    }
+
+    footer .right h3 {
+        font-family: 'Open Sans';
+        font-size: 19px !important;
+        font-weight: 600;
+        color: #29313D;
+    }
+
+    footer .left p {
+	padding: 20px 0;
+	font-family: 'Nunito';
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26.4px;
+}
+
+    #last .main .f-right p {
+        font-size: 11px;
+
+        /* footer start */
+
+    }
+
+    #last .main .f-left p {
+	font-family: 'Nunito';
+	font-size: 10px;
+	font-weight: 714;
+	color: #29313D;
+}
+
+
+
+    #sec-six .ban-txt h1 {
+        width: 100%;
+    }
+
+    #sec-six .ban-txt p {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+
+    #sec-six .ban-txt input {
+        width: 270px;
+        height: 55px;
+        font-size: 15px;
+    }
+
+    #sec-six .ban-txt button {
+        width: 135px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+
+    .cursor::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 28px;
+        height: 28px;
+        background-color: rgb(56, 56, 173);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        -webkit-box-shadow: 0px 0px 101px 13px rgba(93, 9, 219, 0.96);
+        -moz-box-shadow: 0px 0px 101px 13px rgba(93, 9, 219, 0.96);
+        box-shadow: 0px 0px 101px 13px rgba(93, 9, 219, 0.96);
+    }
+
+    .cursor::before {
+        content: "";
+        position: absolute;
+        z-index: 9;
+        background: #fff;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .cursor span {
+        font-size: 0px;
+    }
+
+
+    /* nav part start */
+
+    .navbar-toggler {
+        background: #fff;
+        border: none;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .menu-bg .navbar-collapse {
+        background-color: gray;
+    }
+
+    .menu-bg ul {
+        text-align: center;
+    }
+
+    .menu-bg ul li {
+        padding: 10px 0;
+    }
+
+    .menu-bg ul li:hover {
+        background: #5555;
+    }
+
+    .nav-btn {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* nav part end */
+
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    #banner .ban-txt h1 {
+        width: 100%;
+        font-size: 46px;
+        line-height: 61px;
+    }
+
+    #banner .ban-txt p {
+        font-size: 15px;
+        width: 100%;
+        line-height: 27px;
+    }
+
+    #banner .ban-txt input {
+        width: 355px;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    #banner .ban-txt button {
+        width: 155px;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    #banner {
+        padding: 140px 0 309px 0;
+    }
+
+    .last {
+        bottom: 0px;
+    }
+
+    /* sec-two start */
+
+    #sec-two {
+        padding: 120px 0;
+        overflow-x: hidden;
+    }
+
+    #sec-two .line .box img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #sec-two .line .box h4 {
+        font-size: 20px;
+    }
+
+    #sec-two .left p {
+        font-size: 22px !important;
+        line-height: 35px !important;
+        padding: 20px 0;
+        margin: 0 0 0;
+        text-align: center;
+    }
+
+
+
+    #sec-two .text h3 {
+        font-size: 43px;
+        font-weight: 600;
+        line-height: 48.2px;
+        width: 100%;
+        text-transform: capitalize;
+    }
+
+
+    /* sec-two end */
+
+
+
+    /* sec-three start */
+
+    #sec-three {
+        overflow-x: hidden;
+    }
+
+    #sec-three .right {
+        width: 100%;
+    }
+
+    #sec-two .right .box .txt h3 {
+        font-size: 26px;
+    }
+
+    #sec-three .left p {
+        font-size: 19px !important;
+        line-height: 30px !important;
+        padding: 60px 0;
+    }
+
+    #sec-three .left p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    /* sec-three end */
+
+
+    /* sec-four start*/
+
+    #sec-four {
+        overflow-x: hidden;
+    }
+
+    #sec-four .txt p {
+        font-size: 21px;
+        margin: 0 0 0;
+    }
+
+    #sec-four .txt h3 {
+        font-size: 43px;
+    }
+
+
+    #sec-four .line {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    #sec-four .line .box img {
+        width: 90%;
+        padding: 0 0 0;
+    }
+
+    #sec-four .left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #sec-four .right {
+        padding: 60px 0 0;
+    }
+
+    #sec-four .right h3 {
+        text-transform: capitalize;
+        text-align: center;
+        margin: auto;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    #sec-four .right p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+        margin: 0 0 0;
+        padding: 20px 0 30px 0;
+        text-align: center;
+
+    }
+
+    #sec-four .right .btn {
+        padding: 16px 18px;
+        display: grid;
+        place-items: center;
+    }
+
+    #sec-four .right a {
+        padding: 18px 20px;
+    }
+
+    /* sec-four end*/
+
+
+    /* sec-five start */
+
+    #sec-five {
+        overflow-x: hidden;
+    }
+
+    #sec-five .txt p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    #sec-five .txt h3 {
+        font-size: 41px;
+        line-height: 38.2px;
+    }
+
+    #sec-five .txt .right-txt a {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    #sec-five .txt .right-txt {
+        padding: 26px 0 0 0;
+    }
+
+    #sec-five .top .img {
+        width: 100%;
+        height: 135px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    #sec-five .top .box .card-content h3 {
+        font-family: 'Poppins';
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 39.2px;
+        margin: 0;
+    }
+
+    #sec-five .top .box .card-content p {
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #29313D;
+    }
+
+
+    /* sec-five end */
+
+    #sec-six .ban-txt p {
+        font-size: 22px;
+        line-height: 36px;
+        width: 100%;
+    }
+
+    /* footer start */
+
+    footer {
+        overflow-x: hidden;
+    }
+
+    footer .left {
+        width: 90px;
+    }
+
+    footer .left img {
+        width: 100%;
+    }
+
+    footer .left p {
+        width: 100%;
+    }
+
+
+    footer .left .para {
+        width: 424px;
+    }
+
+    footer .right p {
+        font-size: 17px;
+        line-height: 12px;
+    }
+
+    #last .main .f-left p {
+        font-size: 12px;
+    }
+
+    #last .main .f-right p {
+        font-size: 11px;
+
+        /* footer start */
+
+    }
+
+
+
+    #sec-six .ban-txt h1 {
+        width: 100%;
+    }
+
+    #sec-six .ban-txt p {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+
+    #sec-six .ban-txt input {
+        width: 331px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+
+    #sec-six .ban-txt button {
+        font-size: 17px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .cursor {
+        width: 0;
+        height: 0;
+        font-size: 0px;
+        -webkit-box-shadow: 0px 0px 105px 45px rgba(45, 255, 196, 0.9);
+        -moz-box-shadow: 0px 0px 105px 45px rgba(45, 255, 196, 0.9);
+        box-shadow: 0px 0px 105px 45px rgba(45, 255, 196, 0.9);
+    }
+
+    /* nav part start */
+
+    .navbar-toggler {
+        background: #fff;
+        border: none;
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .menu-bg .navbar-collapse {
+        background-color: gray;
+    }
+
+    .menu-bg ul {
+        text-align: center;
+    }
+
+    .menu-bg ul li {
+        padding: 10px 0;
+    }
+
+    .menu-bg ul li:hover {
+        background: #5555;
+    }
+
+    .nav-btn {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* nav part end */
+
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    #banner .ban-txt h1 {
+        width: 100%;
+        font-size: 46px;
+        line-height: 61px;
+    }
+
+    #banner .ban-txt p {
+        font-size: 15px;
+        width: 100%;
+        line-height: 27px;
+    }
+
+    #banner .ban-txt input {
+        width: 355px;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    #banner .ban-txt button {
+        width: 155px;
+        height: 60px;
+        font-size: 14px;
+    }
+
+    #banner {
+        padding: 140px 0 309px 0;
+    }
+
+    .last {
+        bottom: 0px;
+    }
+
+    /* sec-two start */
+
+    #sec-two {
+        padding: 120px 0;
+        overflow-x: hidden;
+    }
+
+    #sec-two .line .box img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #sec-two .line .box h4 {
+        font-size: 20px;
+    }
+
+    #sec-two .left p {
+        font-size: 22px !important;
+        line-height: 35px !important;
+        padding: 20px 0;
+        margin: 0 0 0;
+        text-align: center;
+    }
+
+
+
+    #sec-two .text h3 {
+        font-size: 43px;
+        font-weight: 600;
+        line-height: 48.2px;
+        width: 676px;
+        text-transform: capitalize;
+    }
+
+
+    /* sec-two end */
+
+
+
+    /* sec-three start */
+
+    #sec-three {
+        overflow-x: hidden;
+    }
+
+    #sec-three .right {
+        width: 100%;
+    }
+
+    #sec-two .right .box .txt h3 {
+        font-size: 26px;
+    }
+
+    #sec-three .left p {
+        font-size: 19px !important;
+        line-height: 30px !important;
+        padding: 60px 0;
+    }
+
+    #sec-three .left p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    /* sec-three end */
+
+
+    /* sec-four start*/
+
+    #sec-four {
+        overflow-x: hidden;
+    }
+
+    #sec-four .txt p {
+        font-size: 21px;
+        margin: 0 0 0;
+    }
+
+    #sec-four .txt h3 {
+        font-size: 43px;
+    }
+
+
+    #sec-four .line {
+        display: flex;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    #sec-four .line .box img {
+        width: 90%;
+        padding: 0 0 0;
+    }
+
+    #sec-four .left {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #sec-four .right {
+        padding: 60px 0 0;
+    }
+
+    #sec-four .right h3 {
+        text-transform: capitalize;
+        text-align: center;
+        margin: auto;
+        margin: 0;
+        font-size: 24px;
+    }
+
+    #sec-four .right p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+        margin: 0 0 0;
+        padding: 20px 0 30px 0;
+        text-align: center;
+
+    }
+
+    #sec-four .right .btn {
+        padding: 16px 18px;
+        display: grid;
+        place-items: center;
+    }
+
+    #sec-four .right a {
+        padding: 18px 20px;
+    }
+
+    /* sec-four end*/
+
+
+    /* sec-five start */
+
+    #sec-five {
+        overflow-x: hidden;
+    }
+
+    #sec-five .txt p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    #sec-five .txt h3 {
+        font-size: 41px;
+        line-height: 38.2px;
+    }
+
+    #sec-five .txt .right-txt a {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    #sec-five .txt .right-txt {
+        padding: 26px 0 0 0;
+    }
+
+    #sec-five .top .img {
+        width: 100%;
+        height: 135px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    #sec-five .top .box .card-content h3 {
+        font-family: 'Poppins';
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 39.2px;
+        margin: 0;
+    }
+
+    #sec-five .top .box .card-content p {
+        font-family: 'Nunito';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #29313D;
+    }
+
+
+    /* sec-five end */
+
+
+    /* footer start */
+
+    footer {
+        overflow-x: hidden;
+    }
+
+    footer .left {
+        width: 90px;
+    }
+
+    footer .left img {
+        width: 100%;
+    }
+
+    footer .left p {
+        width: 100%;
+    }
+
+
+    footer .left .para {
+        width: 424px;
+    }
+
+    footer .right p {
+        font-size: 17px;
+        line-height: 12px;
+    }
+
+    #last .main .f-left p {
+        font-size: 12px;
+    }
+
+    #last .main .f-right p {
+        font-size: 11px;
+
+        /* footer start */
+
+    }
+
+
+
+    #sec-six .ban-txt h1 {
+        width: 100%;
+    }
+
+    #sec-six .ban-txt p {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+
+    #sec-six .ban-txt input {
+        width: 331px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+
+    #sec-six .ban-txt button {
+        font-size: 17px;
+    }
+
+
+}
+
+@media (min-width: 991px) and (max-width: 1198px) {
+
+
+    .menu-bg ul li a {
+        padding: 0 20px !important;
+        font-size: 17px;
+    }
+
+    .nav-btn a {
+        padding: 10px 15px;
+    }
+
+    #banner {
+        padding: 140px 0 365px 0;
+    }
+
+    .last {
+        bottom: -105px;
+    }
+
+    #sec-four {
+        overflow-x: hidden;
+    }
+
+    #sec-two .right .box .txt h3 {
+        font-size: 21px;
+    }
+
+    #sec-two .right .box .txt p {
+        font-size: 15px;
+    }
+
+    #sec-five .txt .right-txt .btn {
+        padding: 0 0 20px;
+    }
+
+    #sec-five .txt .right-txt a {
+        padding: 12px 26px;
+    }
+
+    #sec-five .top .img {
+        width: 100%;
+        height: 208px;
+    }
+
+}

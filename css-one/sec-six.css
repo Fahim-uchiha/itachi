@@ -1,0 +1,92 @@
+#sec-six{
+    padding: 100px 0;
+    background: #F1FBFB;
+    background: url(../image/banner.jpg) no-repeat center / cover;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+}
+
+
+#sec-six img{
+    width: 100%;
+}
+
+.ban-txt{
+    text-align: center;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+#sec-six .ban-txt h1{
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    font-family: 'Poppins';
+    width: 967px;
+    color: #fff;
+    margin: 0 auto;
+    text-transform: capitalize;
+    padding-top: 10px;
+    background: linear-gradient(-25deg,#5662f6,#fff);
+    color: transparent;
+    background-clip: text;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67.2px;
+}
+
+#sec-six .ban-txt p{
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    width: 635px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    padding-bottom: 28px;
+}
+
+#sec-six .ban-txt input{
+    width: 430px;
+    height: 70px;
+    padding-left: 30px;
+    font-family: 'Nunito';
+    font-size: 19px;
+    font-weight: 400;
+    outline: 0;
+    border-radius: 20px 0 0 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    -moz-border-radius: 20px 0 0 20px;
+    -ms-border-radius: 20px 0 0 20px;
+    -o-border-radius: 20px 0 0 20px;
+    text-transform: capitalize;
+    color: #444;
+    z-index: 10;
+    position: relative;
+}
+
+
+#sec-six .ban-txt button{
+    position: relative;
+    width: 190px;
+    height: 70px;
+    border: none;
+    margin: 0 -5px;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    background: #6A55EA;
+    border-radius: 0 20px 20px 0;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+    z-index: 999;
+}
